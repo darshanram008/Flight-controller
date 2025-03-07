@@ -6,12 +6,13 @@
 #define Throttle_stick_IN 34 // Throttle stick input
 #define Rudder_stick_IN 35   // Rudder stick input
 #define Mode_stick_IN 32     // Mode switch input
+
 #define Manual_Mode 0
 #define FBWA_Mode 1
 #define FBWB_Mode 2
-#define Max_aileron_delfection 20
-#define Max_elevator_delfection 20
-#define Max_rudder_delfection 20
+// #define Max_aileron_delfection 20
+// #define Max_elevator_delfection 20
+// #define Max_rudder_delfection 20
 
 Servo Aileron_servo;
 Servo Elevator_servo;
